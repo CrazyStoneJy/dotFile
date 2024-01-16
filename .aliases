@@ -1,0 +1,19 @@
+# proxy
+alias proxy='export all_proxy="socks5://127.0.0.1:33211" ; export all_proxy="http://127.0.0.1:33210"'
+alias unproxy='unset all_proxy'
+
+# npm config
+alias ncg='npm config get'
+alias ncgr='npm config get registry'
+alias ncs='npm config set'
+alias ncsr="npm config set registry"
+alias ncsrm="npm config set registry http://registry.npmmirror.com"
+alias ncsrn="npm config set registry https://registry.npmjs.org"
+
+# android adb
+alias get-cur-activity="adb shell dumpsys activity | grep -E 'mFocusedActivity|mResumedActivity'"
+
+# common
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
